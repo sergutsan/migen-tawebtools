@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<actions>
+<action time="1339002909520">
+<user id="tom" role="student"/>
+<actiontype classification="OTHER" logged="true" succeed="true" type="indicator"/>
+<object id="0" type="expresser-model-and-rules">
+<properties>
+<property name="TOOL" value="eXpresser"/>
+<property name="value" value="false"/>
+<property name="GROUP_ID" value="Awesome"/>
+<property name="CHALLENGE_ID" value="4"/>
+<property name="CHALLENGE_NAME" value="3d Shooter"/>
+<property name="TOKEN" value="1339002781880"/>
+<property name="VIEW_URL" value="http://thumbnail=150x90"/>
+<property name="REFERENCE_URL" value="http://web-expr-undefined-test.xml"/>
+</properties>
+</object>
+<content>
+<description><![CDATA[Inactive]]></description>
+<properties>
+<property name="TOOL" value="eXpresser"/>
+<property name="INDICATOR_TYPE" value="activity"/>
+<property name="value" value="false"/>
+<property name="GROUP_ID" value="Awesome"/>
+<property name="CHALLENGE_ID" value="4"/>
+<property name="CHALLENGE_NAME" value="3d Shooter"/>
+<property name="TOKEN" value="1339002781880"/>
+<property name="INDICATOR_TYPE" value="InactivityVerifier"/>
+</properties>
+</content>
+</action>
+<action time="1339002909520">
+<user id="alice" role="student"/>
+<actiontype classification="OTHER" logged="true" succeed="true" type="indicator"/>
+<object id="0" type="expresser-model-and-rules">
+<properties>
+<property name="TOOL" value="eXpresser"/>
+<property name="value" value="false"/>
+<property name="GROUP_ID" value="Fantastic"/>
+<property name="CHALLENGE_ID" value="5"/>
+<property name="CHALLENGE_NAME" value="arcade"/>
+<property name="TOKEN" value="1339002781880"/>
+<property name="VIEW_URL" value="http://thumbnail=150x90"/>
+<property name="REFERENCE_URL" value="http://web-expr-undefined-test.xml"/>
+</properties>
+</object>
+<content>
+<description><![CDATA[Inactive]]></description>
+<properties>
+<property name="TOOL" value="eXpresser"/>
+<property name="INDICATOR_TYPE" value="activity"/>
+<property name="value" value="false"/>
+<property name="GROUP_ID" value="Fantastic"/>
+<property name="CHALLENGE_ID" value="5"/>
+<property name="CHALLENGE_NAME" value="arcade"/>
+<property name="TOKEN" value="1339002781880"/>
+<property name="INDICATOR_TYPE" value="InactivityVerifier"/>
+</properties>
+</content>
+</action>
+<action time="1339002909520">
+<user id="anna" role="student"/>
+<actiontype classification="OTHER" logged="true" succeed="true" type="indicator"/>
+<object id="0" type="expresser-model-and-rules">
+<properties>
+<property name="TOOL" value="eXpresser"/>
+<property name="value" value="false"/>
+<property name="GROUP_ID" value="Fantastic"/>
+<property name="CHALLENGE_ID" value="4"/>
+<property name="CHALLENGE_NAME" value="3d Shooter"/>
+<property name="TOKEN" value="1339002781880"/>
+<property name="VIEW_URL" value="http://thumbnail=150x90"/>
+<property name="REFERENCE_URL" value="http://web-expr-undefined-test.xml"/>
+</properties>
+</object>
+<content>
+<description><![CDATA[Inactive]]></description>
+<properties>
+<property name="TOOL" value="eXpresser"/>
+<property name="INDICATOR_TYPE" value="activity"/>
+<property name="value" value="false"/>
+<property name="GROUP_ID" value="Fantastic"/>
+<property name="CHALLENGE_ID" value="4"/>
+<property name="CHALLENGE_NAME" value="3d Shooter"/>
+<property name="TOKEN" value="1339002781880"/>
+<property name="INDICATOR_TYPE" value="InactivityVerifier"/>
+</properties>
+</content>
+</action>
+<action time="1339002909520">
+<user id="maria" role="student"/>
+<actiontype classification="OTHER" logged="true" succeed="true" type="indicator"/>
+<object id="0" type="expresser-model-and-rules">
+<properties>
+<property name="TOOL" value="eXpresser"/>
+<property name="value" value="false"/>
+<property name="GROUP_ID" value="Awesome"/>
+<property name="CHALLENGE_ID" value="5"/>
+<property name="CHALLENGE_NAME" value="arcade"/>
+<property name="TOKEN" value="1339002781880"/>
+<property name="VIEW_URL" value="http://thumbnail=150x90"/>
+<property name="REFERENCE_URL" value="http://web-expr-undefined-test.xml"/>
+</properties>
+</object>
+<content>
+<description><![CDATA[Inactive]]></description>
+<properties>
+<property name="TOOL" value="eXpresser"/>
+<property name="INDICATOR_TYPE" value="activity"/>
+<property name="value" value="true"/>
+<property name="GROUP_ID" value="Awesome"/>
+<property name="CHALLENGE_ID" value="5"/>
+<property name="CHALLENGE_NAME" value="arcade"/>
+<property name="TOKEN" value="1339002781880"/>
+<property name="INDICATOR_TYPE" value="InactivityVerifier"/>
+</properties>
+</content>
+</action>
+</actions>

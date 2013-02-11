@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>DB test</title>
+
+<script type="text/javascript">
+
+	alert('db test');
+	var db = indexedDB.open("todos");
+
+if(typeof(db) == 'undefined' || db == null)
+{
+	alert('problem');
+}
+
+</script>
+
+</head>
+<body>
+
+
+
+</body>
+</html>

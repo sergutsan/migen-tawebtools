@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="ourformat.xsl"?>
+<actions>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student is inactive (i.e. paint circle orange)  -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <action time="1359365427506">
+    <user id="Tom"/>
+    <object>
+      <properties>
+        <property name="VIEW_URL" value="http://..." />
+      </properties>
+    </object>
+    <content>
+      <description>inactive</description>
+      <properties>
+        <property name="ANALYSIS_TYPE" value="InactivityVerifier"/>
+		<property name="value" value="true"/>
+      </properties>
+    </content>
+  </action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student is active (i.e. paint circle green)  -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <action time="1359365427506">
+    <user id="Tom"/>
+    <object>
+      <properties>
+        <property name="VIEW_URL" value="http://..." />
+      </properties>
+    </object>
+    <content>
+      <description>inactive</description>
+      <properties>
+	  <property name="ANALYSIS_TYPE" value="InactivityVerifier"/>
+        <property name="value" value="false"/>
+      </properties>
+    </content>
+  </action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- student is waiting for the teacher (circle red) -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <action time="1359365427506">
+    <user id="Tom"/>
+    <object>
+      <properties>
+        <property name="VIEW_URL" value="http://..." />
+        (...)
+      </properties>
+    </object>
+    <content>
+      <description>The teacher was called.</description>
+      <properties>
+	    <property name="ANALYSIS_TYPE" value="FeedbackShown"/>
+        <property name="FEEDBACK_STRATEGY_ID" value="111"/>
+		<property name="FEEDBACK_STRATEGY_NAME" value="CALL_TEACHER"/> <!-- optional -->
+	 </properties>
+    </content>
+  </action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student has accomplished a goal        -->
+  <!-- (square green, add number to circle) - -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <action time="1359365427506">
+    <user id="Tom"/>
+    <object>
+      <properties>
+        <property name="VIEW_URL" value="http://..." />
+        (...)
+      </properties>
+    </object>
+    <content>
+      <description>goal checked by system</description>
+      <properties>
+   	  <property name="ANALYSIS_TYPE" value="GoalAchievent"/>
+  	   <property name="GOAL_ID" value="2"/>
+	   <property name="GOAL_NAME" value="COLOUR_PATTERN"/> <!-- optional -->
+        <property name="value" value="true"/>
+      </properties>
+    </content>
+  </action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student has not accomplished a goal    -->
+  <!-- (square green, add number to circle) - -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <action time="1359365427506">
+    <user id="Tom"/>
+    <object>
+      <properties>
+        <property name="VIEW_URL" value="http://..." />
+        (...)
+      </properties>
+    </object>
+    <content>
+      <description>goal unchecked by system</description>
+      <properties>
+        <property name="value" value="name of goal here"/>
+        (...)
+      </properties>
+    </content>
+  </action>
+  (...)
+</actions>

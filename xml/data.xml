@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<interactiondata>
+	<preamble>
+		<users>
+		<users>
+			<user_def id="1" firstname="John" lastname="Barry" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="2" firstname="Maria" lastname="Kallas" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="3" firstname="Antonio" lastname="Vivaldi" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="4" firstname="Hector" lastname="Berlioz" role="Instructor">
+				<description/>
+			</user_def>
+			<user_def id="5" firstname="Modest" lastname="Mussorgsky" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="6" firstname="Alexander" lastname="Borodin" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="7" firstname="Modest" lastname="Mussorgsky" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="8" firstname="Alexander" lastname="Borodin" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="9" firstname="Modest" lastname="Mussorgsky" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="10" firstname="Alexander" lastname="Borodin" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="11" firstname="Modest" lastname="Mussorgsky" role="Learner">
+				<description/>
+			</user_def>
+			<user_def id="12" firstname="Alexander" lastname="Borodin" role="Learner">
+				<description/>
+			</user_def>
+		</users>
+		</users>
+		<groups>
+			<group_def id="" members="">
+				<time_range from="" to=""/>
+				<description/>
+			</group_def>
+		</groups>
+		<objects>
+			<object_def type="EXPRESSER_TASK" id="">
+				<description>Demo of Intelligent Support - TrainTrack -</description>
+				<properties>
+					<property name="URL" value="task.xml"/>
+				</properties>
+				<additional_information type=""/>
+			</object_def>
+		</objects>
+		<roles>
+			<role_def id="">
+				<description/>
+			</role_def>
+		</roles>
+		<conditions creator_application="" application_version="" experimenter="">
+			<instructions>
+				<instruction>
+					<PCDATA/>
+				</instruction>
+			</instructions>
+			<description/>
+		</conditions>
+		<document_information/>
+		<time_range from="" to=""/>
+		<description/>
+		<additional_information type=""/>
+	</preamble>
+	<actions>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student is inactive (i.e. paint circle orange)  -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<action time="1359365427506">
+			<actiontype classification="create" type="" logged="true" succeed="true">
+				<additional_information type=""/>
+			</actiontype>
+			<user id="2" ip="" role="originator" user_role="">
+				<additional_information type=""/>
+			</user>
+			<object id="" type="">
+				<properties>
+					<property name="VIEW_URL" value="nogoals.html"/>
+					</properties>
+				<additional_information type=""/>
+			</object>
+			<content>
+				<description>inactive</description>
+				<properties>
+					<property name="value" value="true"/>
+					<property name="ANALYSIS_TYPE" value="InactivityVerifier"/>
+				</properties>
+				<additional_information type=""/>
+			</content>
+			<transport type=""/>
+		</action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student is active (i.e. paint circle green)  -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<action time="1359365427506">
+			<actiontype classification="create" type="" logged="true" succeed="true">
+				<additional_information type=""/>
+			</actiontype>
+			<user id="1" ip="" role="originator" user_role="">
+				<additional_information type=""/>
+			</user>
+			<object id="" type="">
+				<properties>
+					<property name="VIEW_URL" value="nogoals.html"/>
+				</properties>
+				<additional_information type=""/>
+			</object>
+			<content>
+				<description>inactive</description>
+				<properties>
+					<property name="value" value="false"/>
+					<property name="ANALYSIS_TYPE" value="InactivityVerifier"/>
+				</properties>
+				<additional_information type=""/>
+			</content>
+			<transport type=""/>
+		</action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- student is waiting for the teacher (circle red) -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<action time="1359365427506">
+			<actiontype classification="create" type="" logged="true" succeed="true">
+				<additional_information type=""/>
+			</actiontype>
+			<user id="3" ip="" role="originator" user_role="">
+				<additional_information type=""/>
+			</user>
+			<object id="" type="">
+				<properties>
+					<property name="VIEW_URL" value="nogoals.html"/>
+				</properties>
+				<additional_information type=""/>
+			</object>
+			<content>
+				<description>the teacher was called</description>
+				<properties>
+					<property name="FEEDBACK_STRATEGY_ID" value="999"/>
+					<property name="FEEDBACK_STRATEGY_NAME" value="CALL_TEACHER"/> <!-- optional -->
+					<property name="ANALYSIS_TYPE" value="FeedbackShown"/>
+				</properties>
+				<additional_information type=""/>
+			</content>
+			<transport type=""/>
+		</action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student has accomplished a goal        -->
+  <!-- (square green, add number to circle) - -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<action time="1359365427506">
+			<actiontype classification="create" type="" logged="true" succeed="true">
+				<additional_information type=""/>
+			</actiontype>
+			<user id="2" ip="" role="originator" user_role="">
+				<additional_information type=""/>
+			</user>
+			<object id="" type="">
+				<properties>
+					<property name="VIEW_URL" value="nogoals.html"/>
+				</properties>
+				<additional_information type=""/>
+			</object>
+			<content>
+				<description>goal checked by system</description>
+				<properties>
+					<property name="GOAL_ID" value="2"/>
+					<property name="GOAL_NAME" value="COLOUR_PATTERN"/> <!-- optional -->
+					<property name="value" value="true"/>
+					<property name="ANALYSIS_TYPE" value="GoalAchievement"/>
+				</properties>
+				<additional_information type=""/>
+			</content>
+			<transport type=""/>
+		</action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student has not accomplished a goal    -->
+  <!-- (square white, no change in the circle) - -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<action time="1359365427506">
+			<actiontype classification="create" type="" logged="true" succeed="true">
+				<additional_information type=""/>
+			</actiontype>
+			<user id="3" ip="" role="originator" user_role="">
+				<additional_information type=""/>
+			</user>
+			<object id="" type="">
+				<properties>
+					<property name="VIEW_URL" value="nogoals.html"/>
+				</properties>
+				<additional_information type=""/>
+			</object>
+			<content>
+				<description>goal unchecked by system</description>
+				<properties>
+					<property name="GOAL_ID" value="3"/>
+					<property name="GOAL_NAME" value="COLOUR_PATTERN"/> <!-- optional -->
+					<property name="value" value="false"/>
+					<property name="ANALYSIS_TYPE" value="GoalAchievement"/>
+				</properties>
+				<additional_information type=""/>
+			</content>
+			<transport type=""/>
+		</action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student has accomplished a goal        -->
+  <!-- (square green, add number to circle) - -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<action time="1359365427506">
+			<actiontype classification="create" type="" logged="true" succeed="true">
+				<additional_information type=""/>
+			</actiontype>
+			<user id="1" ip="" role="originator" user_role="">
+				<additional_information type=""/>
+			</user>
+			<object id="" type="">
+				<properties>
+					<property name="VIEW_URL" value="nogoals.html"/>
+				</properties>
+				<additional_information type=""/>
+			</object>
+			<content>
+				<description>goal checked by system</description>
+				<properties>
+					<property name="GOAL_ID" value="2"/>
+					<property name="GOAL_NAME" value="COLOUR_PATTERN"/> <!-- optional -->
+					<property name="value" value="true"/>
+					<property name="ANALYSIS_TYPE" value="GoalAchievement"/>
+				</properties>
+				<additional_information type=""/>
+			</content>
+			<transport type=""/>
+		</action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student has not accomplished a goal    -->
+  <!-- (square white, no change in the circle) - -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<action time="1359365427508">
+			<actiontype classification="create" type="" logged="true" succeed="true">
+				<additional_information type=""/>
+			</actiontype>
+			<user id="3" ip="" role="originator" user_role="">
+				<additional_information type=""/>
+			</user>
+			<object id="" type="">
+				<properties>
+					<property name="VIEW_URL" value="nogoals.html"/>
+				</properties>
+				<additional_information type=""/>
+			</object>
+			<content>
+				<description>goal checked by system</description>
+				<properties>
+					<property name="GOAL_ID" value="3"/>
+					<property name="GOAL_NAME" value="COLOUR_PATTERN"/> <!-- optional -->
+					<property name="value" value="true"/>
+					<property name="ANALYSIS_TYPE" value="GoalAchievement"/>
+				</properties>
+				<additional_information type=""/>
+			</content>
+			<transport type=""/>
+		</action>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!-- Student had accomplished a goal but decided to go back -->
+  <!-- (square orange, subtract number from circle) - -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<action time="1359365427507">
+			<actiontype classification="create" type="" logged="true" succeed="true">
+				<additional_information type=""/>
+			</actiontype>
+			<user id="1" ip="" role="originator" user_role="">
+				<additional_information type=""/>
+			</user>
+			<object id="" type="">
+				<properties>
+					<property name="VIEW_URL" value="nogoals.html"/>
+				</properties>
+				<additional_information type=""/>
+			</object>
+			<content>
+				<description>goal unchecked by system</description>
+				<properties>
+					<property name="GOAL_ID" value="2"/>
+					<property name="GOAL_NAME" value="COLOUR_PATTERN"/> <!-- optional -->
+					<property name="value" value="false"/>
+					<property name="ANALYSIS_TYPE" value="GoalAchievement"/>
+				</properties>
+				<additional_information type=""/>
+			</content>
+			<transport type=""/>
+		</action>
+	</actions>
+</interactiondata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item-list name="Goal">
+  <item name="Building Block" id="0"/> 
+  <item name="Construct Pattern" id="1"/>
+  <item name="Colour my World" id="2"/>
+  <item name="Structural Generality" id="3"/>
+  <item name="Find General Rule" id="4"/>
+  <item name="Unmessable Pattern Linking Tutorial" id="5"/>
+  <item name="Make Tutorial Building Block" id="6"/>
+  <item name="Make Tutorial Pattern" id="7"/>
+  <item name="Make Tutorial Pattern Coloured" id="8"/>
+  <item name="Make Tutorial Pattern Animate" id="9"/>
+  <item name="Name Variable" id="10"/> 
+</item-list>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>taffy test</title>
+
+  <script type="text/javascript" src="./lib/taffy.js"></script>
+
+  <script>
+  // recursive object compare, for future use
+  
+  var test1, test2, test3;
+  test1 = TAFFY([
+    {"id":1,"gender":"M","first":"John","last":"Smith","city":"Seattle, WA","status":"inactive"},
+    {"id":2,"gender":"F","first":"Kelly","last":"Ruth","city":"Dallas, TX","status":"inactive"},
+    {"id":3,"gender":"M","first":"Jeff","last":"Stevenson","city":"Washington, D.C.","status":"inactive"},
+    {"id":4,"gender":"F","first":"Jennifer","last":"Gill","city":"Seattle, WA","status":"inactive"}
+  ]);
+
+  test2 = TAFFY([
+    {"id":1,"gender":"M","first":"John","last":"Smith","city":"Seattle, WA","status":"Active"},
+    {"id":2,"gender":"F","first":"Kelly","last":"Ruth","city":"Dallas, TX","status":"Active"},
+    {"id":3,"gender":"M","first":"Jeff","last":"Stevenson","city":"Washington, D.C.","status":"Active"},
+    {"id":4,"gender":"F","first":"Jennifer","last":"Gill","city":"Seattle, WA","status":"Active"},
+    {"id":5,"gender":"M","first":"John","last":"Smith","city":"Seattle, WA","status":"Active"},
+    {"id":6,"gender":"F","first":"Kelly","last":"Ruth","city":"Dallas, TX","status":"Active"},
+    {"id":7,"gender":"M","first":"Jeff","last":"Stevenson","city":"Washington, D.C.","status":"Active"},
+    {"id":8,"gender":"F","first":"Jennifer","last":"Gill","city":"Seattle, WA","status":"Active"},
+    {"id":9,"gender":"M","first":"Jeff","last":"Stevenson","city":"Washington, D.C.","status":"Active"},
+    {"id":10,"gender":"F","first":"Jennifer","last":"Gill","city":"Seattle, WA","status":"Active"}
+  ]);
+  
+
+  alert(test1().count());
+  //alert(test2().count());
+  test2.merge(test1().get());
+  test1=test2;
+  //alert(test3().count());
+  //alert(test2().count());
+test2=null;
+  test1().each
+  (
+	function(record, recordNo)
+	{
+//		record.update({status:"active"});
+
+		var id=record["id"];
+
+//		test1({"id":id}).update({"status":"active"});
+
+		var first=record["first"];
+		var last=record["last"];
+		var status=record["status"];
+		alert("id: "+id+" name: "+first+" status: "+status);
+	}
+  );
+  
+ </script>
+</head>
+<body>
+<div>
+Please open your javascript console to see test results
+</div>
+</body>
+</html>

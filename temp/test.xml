@@ -1,0 +1,26 @@
+<?xml version='1.0' ?>
+<!DOCTYPE actions SYSTEM "file://C:\Users\sokratis\Dropbox\Public\LKLProjects\temp\test.dtd">
+<actions>
+	<action time="">
+		<actiontype classification="create" type="" logged="true" succeed="true">
+			<additional_information type=""/>
+		</actiontype>
+		<user id="" ip="" role="originator" user_role="">
+			<additional_information type=""/>
+		</user>
+		<object id="" type="">
+			<properties>
+				<property name="" value=""/>
+			</properties>
+			<additional_information type=""/>
+		</object>
+		<content>
+			<description/>
+			<properties>
+				<property name="" value=""/>
+			</properties>
+			<additional_information type=""/>
+		</content>
+		<transport type=""/>
+	</action>
+</actions>

@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity-description id="2" name="linking1">
+
+	<student-description>
+This is the description for the student
+</student-description>
+   	<notes>
+This is the designer notes
+</notes>
+
+	<activity-configuration>
+	    <!-- just testing with one from traintrack.ini -->	
+		<configuration-item name="acknowledgeGoalAchievement" type="Boolean">false</configuration-item>
+	</activity-configuration>
+
+	<activity-factors constructionType="NO_OVERLAPS" expressionType="LINEAR" numberOfVariables="1" presentationOfVariables="INTERNAL" type="ConstructionExpressionTask"/>
+
+	<activity-document>
+<ActivityDocument id="368" name="TrainTrackDesigned" taskIdentifier="10">
+  <ActivityDocumentComponentList>
+    <ActivityDocumentComponent addZoomButtons="true" closable="false" containsDoneButton="false" enabled="true" gridShowing="true" gridSize="10" height="300" id="1990" mirrorChangesInMyWorld="true" name="" patternsDraggable="false" playMenuAdded="true" replaceableWithGeneralWorld="false" resizeable="true" title="Computer's Model" type="Canvas" width="450" x="0" y="0">
+      <ExpresserModel id="994" name="">
+        <Palette id="995">
+          <ModelColorList>
+            <ModelColor alpha="255" blue="0" green="0" id="996" name="red" negative="false" red="255"/>
+            <ModelColor alpha="255" blue="0" green="255" id="997" name="green" negative="false" red="0"/>
+            <ModelColor alpha="255" blue="255" green="0" id="998" name="blue" negative="false" red="0"/>
+            <ModelColor alpha="255" blue="0" green="255" id="999" name="yellow" negative="false" red="255"/>
+            <ModelColor alpha="255" blue="0" green="0" id="9990" name="red (negative)" negative="true" red="255"/>
+            <ModelColor alpha="255" blue="0" green="255" id="9991" name="green (negative)" negative="true" red="0"/>
+            <ModelColor alpha="255" blue="255" green="0" id="9992" name="blue (negative)" negative="true" red="0"/>
+            <ModelColor alpha="255" blue="0" green="255" id="9993" name="yellow (negative)" negative="true" red="255"/>
+          </ModelColorList>
+        </Palette>
+        <BlockShapeList/>
+        <ExpressionList/>
+        <ColorAllocationList/>
+        <LocatedExpressionList/>
+      </ExpresserModel>
+    </ActivityDocumentComponent>
+    <ActivityDocumentComponent addZoomButtons="true" closable="false" containsDoneButton="false" enabled="true" gridShowing="true" gridSize="10" height="400" id="334" mirrorChangesInMyWorld="false" name="task presentation canvas" patternsDraggable="true" playMenuAdded="true" replaceableWithGeneralWorld="false" resizeable="true" title="TrainTrack Model" type="Canvas" width="450" x="20" y="20">
+
+<ExpresserModel id="194" name="" pollable="true">
+  <Palette id="2">
+    <ModelColorList>
+      <ModelColor alpha="255" blue="153" green="153" id="0" name="ModelColor[r=153,g=153,b=153,a=255,n=false]" negative="false" red="153"/>
+      <ModelColor alpha="255" blue="153" green="153" id="1" name="ModelColor[r=153,g=153,b=153,a=255,n=false] (negative)" negative="true" red="153"/>
+    </ModelColorList>
+  </Palette>
+  <BlockShapeList>
+    <BlockShape id="75" treatAsType="pattern" type="PatternShape" uniqueId="c4dff8cf-9ec5-4554-945e-f42edaeb9dcc" x="3" y="3">
+      <BaseShape id="67" type="GroupShape" uniqueId="1f710c57-1900-4488-ae8c-eec276c3d557" x="3" y="3">
+        <BlockShapeList>
+          <BlockShape id="15" treatAsType="tile" type="PatternShape" uniqueId="1a52443f-4758-4415-8703-33dfef4cca0e" x="3" y="3">
+            <BaseShape id="6" type="BasicShape" uniqueId="3731ff65-b6b5-4461-befc-ae63735eb05e" x="3" y="3">
+              <Color alpha="255" blue="153" green="153" id="3" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="5">
+                  <Color idRef="0"/>
+                  <Value displayMode="0" id="4" idString="" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="-1073741824"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="8" name="iterations">
+                <Value id="7" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="10" name="inc x">
+                <Value id="9" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="12" name="inc y">
+                <Value id="11" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="14">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="13" idString="9babd90b-73ce-45d8-8874-ef8b299cecf1" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="27" treatAsType="tile" type="PatternShape" uniqueId="426568f2-f6da-40f7-a167-9279875ed552" x="3" y="4">
+            <BaseShape id="18" type="BasicShape" uniqueId="4ffbbd51-66d3-40bb-8173-dfc3fd63ab18" x="3" y="4">
+              <Color alpha="255" blue="153" green="153" id="16" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="17">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="20" name="iterations">
+                <Value id="19" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="22" name="inc x">
+                <Value id="21" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="24" name="inc y">
+                <Value id="23" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="26">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="25" idString="15c3d85b-e094-4262-a8da-dd4a8001198e" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="39" treatAsType="tile" type="PatternShape" uniqueId="28b390bd-fb39-4018-9ccb-1d2097a8766c" x="3" y="5">
+            <BaseShape id="30" type="BasicShape" uniqueId="e144f20d-ca1e-47f3-80c4-5b37d0482c34" x="3" y="5">
+              <Color alpha="255" blue="153" green="153" id="28" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="29">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="32" name="iterations">
+                <Value id="31" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="34" name="inc x">
+                <Value id="33" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="36" name="inc y">
+                <Value id="35" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="38">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="37" idString="9ae0c430-248d-4158-836f-dd31105f4ae2" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="51" treatAsType="tile" type="PatternShape" uniqueId="8b14319c-274f-40a4-91b2-b619f70791a9" x="3" y="7">
+            <BaseShape id="42" type="BasicShape" uniqueId="55731627-80e2-4ce8-acce-72fbf2bcb5a7" x="3" y="7">
+              <Color alpha="255" blue="153" green="153" id="40" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="41">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="44" name="iterations">
+                <Value id="43" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="46" name="inc x">
+                <Value id="45" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="48" name="inc y">
+                <Value id="47" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="50">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="49" idString="f2e47419-b02e-401a-baa5-e44e66184dec" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="63" treatAsType="tile" type="PatternShape" uniqueId="982927ed-9adc-4fe6-9a2f-47615ef9173d" x="3" y="6">
+            <BaseShape id="54" type="BasicShape" uniqueId="8dd5f2b4-314b-45ed-80ee-4fcdad1bda36" x="3" y="6">
+              <Color alpha="255" blue="153" green="153" id="52" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="53">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="56" name="iterations">
+                <Value id="55" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="58" name="inc x">
+                <Value id="57" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="60" name="inc y">
+                <Value id="59" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="62">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="61" idString="4e10556d-f748-43a8-8c38-c51541f8eeb5" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+        </BlockShapeList>
+        <TiedNumberList>
+          <TiedNumber displayMode="0" id="64" idString="07d7e999-fd26-4331-80a6-3ef7b4bad0c8" keyAvailable="false" locked="true" named="false" playing="false" type="TiedNumber" value="5"/>
+        </TiedNumberList>
+        <AttributeList/>
+        <ColorAllocationList>
+          <ColorAllocation id="66">
+            <Color idRef="0"/>
+            <Value displayMode="0" id="65" idString="54a2938b-f100-4045-b295-4101bf4a1583" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="0"/>
+          </ColorAllocation>
+        </ColorAllocationList>
+      </BaseShape>
+      <AttributeList>
+        <Attribute id="69" name="iterations">
+          <Value displayMode="0" id="68" idString="14699c1b-5744-4abe-b603-dfcb6fb40d1b" keyAvailable="true" locked="true" named="false" playing="false" type="TiedNumber" value="1"/>
+        </Attribute>
+        <Attribute id="71" name="inc x">
+          <Value displayMode="0" id="70" idString="6e2045e6-6a35-485a-9ae2-c514b0fc3f13" keyAvailable="true" locked="true" named="false" playing="false" type="TiedNumber" value="0"/>
+        </Attribute>
+        <Attribute id="72" name="inc y">
+          <Value idRef="70"/>
+        </Attribute>
+      </AttributeList>
+      <ColorAllocationList>
+        <ColorAllocation id="74">
+          <Color idRef="0"/>
+          <Value displayMode="0" id="73" idString="3f88dc27-dae1-4acb-8a7f-2fc3b87ebadd" keyAvailable="true" locked="true" named="false" playing="false" type="TiedNumber" value="5"/>
+        </ColorAllocation>
+      </ColorAllocationList>
+    </BlockShape>
+    <BlockShape id="172" treatAsType="pattern" type="PatternShape" uniqueId="ccadd7c7-e2bb-486e-884b-57659351cdf4" x="4" y="3">
+      <BaseShape id="163" type="GroupShape" uniqueId="9a7ec225-9922-4561-b4a7-53c712f745e6" x="4" y="3">
+        <BlockShapeList>
+          <BlockShape id="87" treatAsType="tile" type="PatternShape" uniqueId="7d681e34-c60c-4e6c-9ee6-f02825e42b61" x="5" y="5">
+            <BaseShape id="78" type="BasicShape" uniqueId="19e6c084-1dad-43dd-9dbd-e08d6afc3f2c" x="5" y="5">
+              <Color alpha="255" blue="153" green="153" id="76" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="77">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="80" name="iterations">
+                <Value id="79" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="82" name="inc x">
+                <Value id="81" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="84" name="inc y">
+                <Value id="83" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="86">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="85" idString="e81b3bf4-d3fa-488e-b185-7a98c61f78b5" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="99" treatAsType="tile" type="PatternShape" uniqueId="4f714c8e-cdf7-4920-8934-2cedad15222b" x="4" y="7">
+            <BaseShape id="90" type="BasicShape" uniqueId="eebc426e-2c3b-4367-8dde-72fcfc11a301" x="4" y="7">
+              <Color alpha="255" blue="153" green="153" id="88" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="89">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="92" name="iterations">
+                <Value id="91" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="94" name="inc x">
+                <Value id="93" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="96" name="inc y">
+                <Value id="95" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="98">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="97" idString="1fdca035-56e8-4f29-b1c2-0e8671de5b79" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="111" treatAsType="tile" type="PatternShape" uniqueId="ee55f0d3-2470-43d3-97c2-20b1d13b2a64" x="5" y="6">
+            <BaseShape id="102" type="BasicShape" uniqueId="34fec4bd-f7e3-42e9-99a4-9b2eeaec1ab2" x="5" y="6">
+              <Color alpha="255" blue="153" green="153" id="100" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="101">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="104" name="iterations">
+                <Value id="103" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="106" name="inc x">
+                <Value id="105" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="108" name="inc y">
+                <Value id="107" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="110">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="109" idString="f145c31f-8f54-4813-87eb-590c86bfd747" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="123" treatAsType="tile" type="PatternShape" uniqueId="da9914e8-7e0f-4990-8220-0e00ffd53c21" x="4" y="3">
+            <BaseShape id="114" type="BasicShape" uniqueId="f328981a-cb58-43c9-a0c5-7eb43c257480" x="4" y="3">
+              <Color alpha="255" blue="153" green="153" id="112" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="113">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="116" name="iterations">
+                <Value id="115" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="118" name="inc x">
+                <Value id="117" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="120" name="inc y">
+                <Value id="119" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="122">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="121" idString="3eb4e417-f84b-479e-9b6e-e68e9f7622c7" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="135" treatAsType="tile" type="PatternShape" uniqueId="f7184881-44b1-42bb-8af3-5651ea95646b" x="5" y="4">
+            <BaseShape id="126" type="BasicShape" uniqueId="b7cc0f91-c78a-472e-833e-288d77eecc68" x="5" y="4">
+              <Color alpha="255" blue="153" green="153" id="124" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="125">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="128" name="iterations">
+                <Value id="127" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="130" name="inc x">
+                <Value id="129" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="132" name="inc y">
+                <Value id="131" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="134">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="133" idString="92ea82d2-f8fd-4dd6-8342-7549d1f32c4b" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="147" treatAsType="tile" type="PatternShape" uniqueId="5e89352f-4881-4c25-892f-b1f15ed74dc0" x="5" y="3">
+            <BaseShape id="138" type="BasicShape" uniqueId="1dda5aca-10c0-42c0-878b-bfd046de93dc" x="5" y="3">
+              <Color alpha="255" blue="153" green="153" id="136" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="137">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="140" name="iterations">
+                <Value id="139" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="142" name="inc x">
+                <Value id="141" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="144" name="inc y">
+                <Value id="143" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="146">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="145" idString="76ad36f0-9cbd-43b1-8088-55cbe9a391d4" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+          <BlockShape id="159" treatAsType="tile" type="PatternShape" uniqueId="9760133e-03a2-4c2b-8124-d74996fb12f1" x="5" y="7">
+            <BaseShape id="150" type="BasicShape" uniqueId="d16f77a7-93a9-43d3-a68d-7dfef870a1a8" x="5" y="7">
+              <Color alpha="255" blue="153" green="153" id="148" name=" (unnamed color ModelColor[r=153,g=153,b=153,a=255,n=false])" negative="false" red="153"/>
+              <AttributeList/>
+              <ColorAllocationList>
+                <ColorAllocation id="149">
+                  <Color idRef="0"/>
+                  <Value idRef="4"/>
+                </ColorAllocation>
+              </ColorAllocationList>
+            </BaseShape>
+            <AttributeList>
+              <Attribute id="152" name="iterations">
+                <Value id="151" type="Value" value="1"/>
+              </Attribute>
+              <Attribute id="154" name="inc x">
+                <Value id="153" type="Value" value="0"/>
+              </Attribute>
+              <Attribute id="156" name="inc y">
+                <Value id="155" type="Value" value="0"/>
+              </Attribute>
+            </AttributeList>
+            <ColorAllocationList>
+              <ColorAllocation id="158">
+                <Color idRef="0"/>
+                <Value displayMode="0" id="157" idString="3ff55141-e40e-4196-8185-31bb6f91e2c5" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="1"/>
+              </ColorAllocation>
+            </ColorAllocationList>
+          </BlockShape>
+        </BlockShapeList>
+        <TiedNumberList>
+          <TiedNumber displayMode="0" id="160" idString="82a5400c-71e5-4378-ae5a-1a8a75e1ae7e" keyAvailable="false" locked="true" named="false" playing="false" type="TiedNumber" value="7"/>
+        </TiedNumberList>
+        <AttributeList/>
+        <ColorAllocationList>
+          <ColorAllocation id="162">
+            <Color idRef="0"/>
+            <Value displayMode="0" id="161" idString="65f2151d-f45b-49f0-a19d-df16dafd3235" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="0"/>
+          </ColorAllocation>
+        </ColorAllocationList>
+      </BaseShape>
+      <AttributeList>
+        <Attribute id="165" name="iterations">
+          <Value displayMode="0" id="164" idString="c20d2680-8bf7-429c-84e9-e3909a638b67" keyAvailable="true" locked="false" named="false" playing="false" type="TiedNumber" value="5"/>
+        </Attribute>
+        <Attribute id="167" name="inc x">
+          <Value displayMode="0" id="166" idString="028a57bc-a6b2-40db-b8c6-219428a0b80c" keyAvailable="true" locked="true" named="false" playing="false" type="TiedNumber" value="2"/>
+        </Attribute>
+        <Attribute id="169" name="inc y">
+          <Value displayMode="0" id="168" idString="706f05d5-aa3d-43f0-86c6-30bb4336bd71" keyAvailable="true" locked="true" named="false" playing="false" type="TiedNumber" value="0"/>
+        </Attribute>
+      </AttributeList>
+      <ColorAllocationList>
+        <ColorAllocation id="171">
+          <Color idRef="0"/>
+          <Value id="170" name="multiply" type="Operation" uniqueId="2213d032-5f09-4414-845a-0257f6d84dab">
+            <ExpressionList>
+              <Expression idRef="164"/>
+              <Expression idRef="160"/>
+            </ExpressionList>
+          </Value>
+        </ColorAllocation>
+      </ColorAllocationList>
+    </BlockShape>
+  </BlockShapeList>
+  <ExpressionList>
+    <Expression idRef="164"/>
+    <Expression displayMode="2" id="173" idString="971" keyAvailable="true" locked="false" name="Model Number" named="true" playing="false" type="TiedNumber" value="1"/>
+  </ExpressionList>
+  <ColorAllocationList/>
+  <TotalAllocationExpression id="177" name="add" type="Operation" uniqueId="b498adb5-ae79-47a2-9e73-9791bdafe714">
+    <ExpressionList>
+      <Expression displayMode="0" id="174" idString="5834" keyAvailable="true" locked="true" named="false" playing="false" type="TiedNumber" value="5"/>
+      <Expression id="176" name="multiply" type="Operation" uniqueId="19e2b6e5-0a3c-4d36-ac1d-7cccb55a2cc2">
+        <ExpressionList>
+          <Expression idRef="173"/>
+          <Expression displayMode="0" id="175" idString="1632" keyAvailable="true" locked="true" named="false" playing="false" type="TiedNumber" value="7"/>
+        </ExpressionList>
+      </Expression>
+    </ExpressionList>
+  </TotalAllocationExpression>
+  <LocatedExpressionList/>
+  <StringList>
+    
+  </StringList>
+</ExpresserModel>
+
+
+</ActivityDocumentComponent>
+    <ActivityDocumentComponent closable="false" containsDoneButton="true" doneButtonEnabled="true" enabled="true" height="250" id="339" name="" replaceableWithGeneralWorld="false" resizeable="true" title="Goals" type="GoalArea" width="450" x="0" y="420">
+      <GoalList>
+        <Goal id="335" value="1"/>
+        <Goal id="336" value="2"/>
+        <Goal id="337" value="3"/>
+        <Goal id="338" value="4"/>
+      </GoalList>
+      <IntroductoryText><![CDATA[<html>Construct the TrainTrack model. <b>Use more than one pattern</b> to make the model. <b>Use different colours for each pattern</b> to show other people how you made your model. Find a rule for the number of tiles for <b>any</b> Model Number</b></html>]]></IntroductoryText>
+    </ActivityDocumentComponent>
+    <ActivityDocumentComponent closable="false" containsDoneButton="false" dissolvable="false" enabled="false" height="100" id="340" name="" replaceableWithGeneralWorld="false" resizeable="true" title="Task 3" type="TextArea" width="450" x="0" y="670"><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <b>Use your rule to find the number of tiles for Model Number: 6, 12, 1, 
+    100</b>
+  </body>
+</html>
+]]></ActivityDocumentComponent>
+    <ActivityDocumentComponent addZoomButtons="false" closable="false" containsDoneButton="true" doneButtonEnabled="false" enabled="false" gridShowing="true" gridSize="20" height="120" id="350" mirrorChangesInMyWorld="false" name="" patternsDraggable="false" playMenuAdded="false" replaceableWithGeneralWorld="false" resizeable="false" title="Find the number of tiles for Model Number 6" type="Canvas" width="450" x="50" y="770">
+      <ExpresserModel id="348" name="">
+        <Palette id="345">
+          <ModelColorList>
+            <ModelColor alpha="255" blue="0" green="0" id="341" name="red" negative="false" red="255"/>
+            <ModelColor alpha="255" blue="0" green="255" id="342" name="green" negative="false" red="0"/>
+            <ModelColor alpha="255" blue="255" green="0" id="343" name="blue" negative="false" red="0"/>
+            <ModelColor alpha="255" blue="0" green="255" id="344" name="yellow" negative="false" red="255"/>
+          </ModelColorList>
+        </Palette>
+        <BlockShapeList/>
+        <ExpressionList/>
+        <ColorAllocationList/>
+        <LocatedExpressionList>
+          <LocatedExpression id="347" x="160" y="0">
+            <Expression displayMode="0" id="346" idString="87ee58bf-1d1f-44b1-a209-4fcfe8631dbb" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="0"/>
+          </LocatedExpression>
+        </LocatedExpressionList>
+      </ExpresserModel>
+      <LocatedExpression answerPanelDescription="6" idRef="347"/>
+      <DissolvedText id="349" x="10" y="10"><![CDATA[<html><font size='3'><b>For Model Number 6</b></font></html>]]></DissolvedText>
+    </ActivityDocumentComponent>
+    <ActivityDocumentComponent addZoomButtons="false" closable="false" containsDoneButton="true" doneButtonEnabled="false" enabled="false" gridShowing="true" gridSize="20" height="120" id="355" mirrorChangesInMyWorld="false" name="" patternsDraggable="false" playMenuAdded="false" replaceableWithGeneralWorld="false" resizeable="false" title="Find the number of tiles for Model Number 12" type="Canvas" width="450" x="50" y="890">
+      <ExpresserModel id="353" name="">
+        <Palette idRef="345"/>
+        <BlockShapeList/>
+        <ExpressionList/>
+        <ColorAllocationList/>
+        <LocatedExpressionList>
+          <LocatedExpression id="352" x="160" y="0">
+            <Expression displayMode="0" id="351" idString="fb077681-7283-4b45-ae30-456d2572e523" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="0"/>
+          </LocatedExpression>
+        </LocatedExpressionList>
+      </ExpresserModel>
+      <LocatedExpression answerPanelDescription="12" idRef="352"/>
+      <DissolvedText id="354" x="10" y="10"><![CDATA[<html><font size='3'><b>For Model Number 12</b></font></html>]]></DissolvedText>
+    </ActivityDocumentComponent>
+    <ActivityDocumentComponent addZoomButtons="false" closable="false" containsDoneButton="true" doneButtonEnabled="false" enabled="false" gridShowing="true" gridSize="20" height="120" id="360" mirrorChangesInMyWorld="false" name="" patternsDraggable="false" playMenuAdded="false" replaceableWithGeneralWorld="false" resizeable="false" title="Find the number of tiles for Model Number 1" type="Canvas" width="450" x="50" y="1010">
+      <ExpresserModel id="358" name="">
+        <Palette idRef="345"/>
+        <BlockShapeList/>
+        <ExpressionList/>
+        <ColorAllocationList/>
+        <LocatedExpressionList>
+          <LocatedExpression id="357" x="160" y="0">
+            <Expression displayMode="0" id="356" idString="3592cf43-022f-4e7c-964f-277c2a8a63d7" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="0"/>
+          </LocatedExpression>
+        </LocatedExpressionList>
+      </ExpresserModel>
+      <LocatedExpression answerPanelDescription="1" idRef="357"/>
+      <DissolvedText id="359" x="10" y="10"><![CDATA[<html><font size='3'><b>For Model Number 1</b></font></html>]]></DissolvedText>
+    </ActivityDocumentComponent>
+    <ActivityDocumentComponent addZoomButtons="false" closable="false" containsDoneButton="true" doneButtonEnabled="false" enabled="false" gridShowing="true" gridSize="20" height="120" id="365" mirrorChangesInMyWorld="false" name="" patternsDraggable="false" playMenuAdded="false" replaceableWithGeneralWorld="false" resizeable="false" title="Find the number of tiles for Model Number 100" type="Canvas" width="450" x="50" y="1130">
+      <ExpresserModel id="363" name="">
+        <Palette idRef="345"/>
+        <BlockShapeList/>
+        <ExpressionList/>
+        <ColorAllocationList/>
+        <LocatedExpressionList>
+          <LocatedExpression id="362" x="160" y="0">
+            <Expression displayMode="0" id="361" idString="6d7979fa-e57b-4bc7-bcc0-f376bca80b86" keyAvailable="true" locked="true" named="false" playing="false" type="UnspecifiedTiedNumber" value="0"/>
+          </LocatedExpression>
+        </LocatedExpressionList>
+      </ExpresserModel>
+      <LocatedExpression answerPanelDescription="100" idRef="362"/>
+      <DissolvedText id="364" x="10" y="10"><![CDATA[<html><font size='3'><b>For Model Number 100</b></font></html>]]></DissolvedText>
+    </ActivityDocumentComponent>
+    <ActivityDocumentComponent closable="false" containsDoneButton="false" dissolvable="false" enabled="false" height="100" id="366" name="" replaceableWithGeneralWorld="false" resizeable="true" title="Task 4" type="TextArea" width="450" x="0" y="1250"><![CDATA[<html>
+  <head>
+    
+  </head>
+  <body>
+    <b>Is your rule correct or not? In the next task, you will discuss with 
+    another student. Make some notes here to explain why your rule is correct 
+    or not to prepare for this group activity.</b>
+  </body>
+</html>
+]]></ActivityDocumentComponent>
+    <ActivityDocumentComponent closable="false" containsDoneButton="true" dissolvable="false" doneButtonEnabled="false" enabled="false" height="200" id="367" name="" replaceableWithGeneralWorld="false" resizeable="true" title="Write your arguments here" type="TextArea" width="450" x="50" y="1350"><![CDATA[<html>
+
+  <head>
+
+
+
+  </head>
+
+  <body>
+
+    <p style="margin-top: 0">
+
+      
+
+    </p>
+
+  </body>
+
+</html>
+
+]]></ActivityDocumentComponent>
+  </ActivityDocumentComponentList>
+  <ExpresserModelList>
+    <ExpresserModel idRef="994"/>
+  </ExpresserModelList>
+</ActivityDocument>
+</activity-document>
+
+   <initialModel>
+<ExpresserModel id="121" name="" pollable="true">
+	<Palette id="4">
+		<ModelColorList>
+			<ModelColor alpha="255" blue="0" green="0" id="0" name="red"
+				negative="false" red="255" />
+			<ModelColor alpha="255" blue="0" green="255" id="8881" name="green"
+				negative="false" red="0" />
+			<ModelColor alpha="255" blue="255" green="0" id="8882" name="blue"
+				negative="false" red="0" />
+			<ModelColor alpha="255" blue="0" green="255" id="8883" name="yellow"
+				negative="false" red="255" />
+		</ModelColorList>
+	</Palette>
+	<BlockShapeList>
+		<BlockShape id="888117" treatAsType="pattern" type="PatternShape"
+			uniqueId="888755D1AC9-7271-402A-9BE9-9ED66A4CE3D0" x="2" y="2">
+			<BaseShape id="888108" treatAsType="buildingblock" type="PatternShape"
+				uniqueId="8888172185D-F926-46C7-B848-05A41C86FDB1" x="2" y="2">
+				<BaseShape id="88899" type="GroupShape"
+					uniqueId="8888172185D-F926-46C7-B848-05A41C86FDB1" x="2" y="2">
+					<BlockShapeList>
+						<BlockShape id="88817" treatAsType="tile" type="PatternShape"
+							uniqueId="8881AE01702-0C8F-4210-929C-480521A7984F" x="3" y="2">
+							<BaseShape id="8888" type="BasicShape"
+								uniqueId="8881AE01702-0C8F-4210-929C-480521A7984F" x="3" y="2">
+								<Color alpha="255" blue="0" green="255" id="8885" name="#00FF00"
+									negative="false" red="0" />
+								<AttributeList />
+								<ColorAllocationList>
+									<ColorAllocation id="8887">
+										<Color idRef="8881" />
+										<Value displayMode="0" id="8886"
+											idString="12a397b5-9ad1-49d5-95d9-33b5209106eb" keyAvailable="true"
+											locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+											value="-1073741824" />
+									</ColorAllocation>
+								</ColorAllocationList>
+							</BaseShape>
+							<AttributeList>
+								<Attribute id="88810" name="iterations">
+									<Value id="8889" type="Value" value="1" />
+								</Attribute>
+								<Attribute id="88812" name="inc x">
+									<Value id="88811" type="Value" value="0" />
+								</Attribute>
+								<Attribute id="88814" name="inc y">
+									<Value id="88813" type="Value" value="0" />
+								</Attribute>
+							</AttributeList>
+							<ColorAllocationList>
+								<ColorAllocation id="88816">
+									<Color idRef="8881" />
+									<Value displayMode="0" id="88815"
+										idString="6e58b2c1-7a8a-4c7f-be8c-96f519c73e0b" keyAvailable="true"
+										locked="true" named="false" playing="false" type="TiedNumber"
+										value="1" />
+								</ColorAllocation>
+							</ColorAllocationList>
+						</BlockShape>
+						<BlockShape id="88830" treatAsType="tile" type="PatternShape"
+							uniqueId="888BC307C47-842A-4DBC-A1D7-5DCFC1D414C3" x="2" y="2">
+							<BaseShape id="88821" type="BasicShape"
+								uniqueId="888BC307C47-842A-4DBC-A1D7-5DCFC1D414C3" x="2" y="2">
+								<Color alpha="255" blue="0" green="255" id="88818" name="#00FF00"
+									negative="false" red="0" />
+								<AttributeList />
+								<ColorAllocationList>
+									<ColorAllocation id="88820">
+										<Color idRef="8881" />
+										<Value displayMode="0" id="88819"
+											idString="89814781-ae2c-4b82-8801-ae6398a317e0" keyAvailable="true"
+											locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+											value="-1073741824" />
+									</ColorAllocation>
+								</ColorAllocationList>
+							</BaseShape>
+							<AttributeList>
+								<Attribute id="88823" name="iterations">
+									<Value id="88822" type="Value" value="1" />
+								</Attribute>
+								<Attribute id="88825" name="inc x">
+									<Value id="88824" type="Value" value="0" />
+								</Attribute>
+								<Attribute id="88827" name="inc y">
+									<Value id="88826" type="Value" value="0" />
+								</Attribute>
+							</AttributeList>
+							<ColorAllocationList>
+								<ColorAllocation id="88829">
+									<Color idRef="8881" />
+									<Value displayMode="0" id="88828"
+										idString="7c09f7a6-e413-4a3f-a7a5-a2333b2366a0" keyAvailable="true"
+										locked="true" named="false" playing="false" type="TiedNumber"
+										value="1" />
+								</ColorAllocation>
+							</ColorAllocationList>
+						</BlockShape>
+						<BlockShape id="88843" treatAsType="tile" type="PatternShape"
+							uniqueId="8888B659A83-30CD-4F59-B930-37176392812D" x="3" y="3">
+							<BaseShape id="88834" type="BasicShape"
+								uniqueId="8888B659A83-30CD-4F59-B930-37176392812D" x="3" y="3">
+								<Color alpha="255" blue="0" green="255" id="88831" name="#00FF00"
+									negative="false" red="0" />
+								<AttributeList />
+								<ColorAllocationList>
+									<ColorAllocation id="88833">
+										<Color idRef="8881" />
+										<Value displayMode="0" id="88832"
+											idString="e55e4377-f12c-49bf-bdaa-8f9081695de5" keyAvailable="true"
+											locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+											value="-1073741824" />
+									</ColorAllocation>
+								</ColorAllocationList>
+							</BaseShape>
+							<AttributeList>
+								<Attribute id="88836" name="iterations">
+									<Value id="88835" type="Value" value="1" />
+								</Attribute>
+								<Attribute id="88838" name="inc x">
+									<Value id="88837" type="Value" value="0" />
+								</Attribute>
+								<Attribute id="88840" name="inc y">
+									<Value id="88839" type="Value" value="0" />
+								</Attribute>
+							</AttributeList>
+							<ColorAllocationList>
+								<ColorAllocation id="88842">
+									<Color idRef="8881" />
+									<Value displayMode="0" id="88841"
+										idString="c2d3fce0-603e-4fa8-a99d-0b4f00c416fd" keyAvailable="true"
+										locked="true" named="false" playing="false" type="TiedNumber"
+										value="1" />
+								</ColorAllocation>
+							</ColorAllocationList>
+						</BlockShape>
+						<BlockShape id="88856" treatAsType="tile" type="PatternShape"
+							uniqueId="8886ED932C1-FB8B-4FC9-A713-1A72DAA0DD3E" x="3" y="4">
+							<BaseShape id="88847" type="BasicShape"
+								uniqueId="8886ED932C1-FB8B-4FC9-A713-1A72DAA0DD3E" x="3" y="4">
+								<Color alpha="255" blue="0" green="255" id="88844" name="#00FF00"
+									negative="false" red="0" />
+								<AttributeList />
+								<ColorAllocationList>
+									<ColorAllocation id="88846">
+										<Color idRef="8881" />
+										<Value displayMode="0" id="88845"
+											idString="ba5cf8d4-74b6-4260-87c2-e712863e1235" keyAvailable="true"
+											locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+											value="-1073741824" />
+									</ColorAllocation>
+								</ColorAllocationList>
+							</BaseShape>
+							<AttributeList>
+								<Attribute id="88849" name="iterations">
+									<Value id="88848" type="Value" value="1" />
+								</Attribute>
+								<Attribute id="88851" name="inc x">
+									<Value id="88850" type="Value" value="0" />
+								</Attribute>
+								<Attribute id="88853" name="inc y">
+									<Value id="88852" type="Value" value="0" />
+								</Attribute>
+							</AttributeList>
+							<ColorAllocationList>
+								<ColorAllocation id="88855">
+									<Color idRef="8881" />
+									<Value displayMode="0" id="88854"
+										idString="830a1297-378c-41db-ad28-9a73f8fd57c0" keyAvailable="true"
+										locked="true" named="false" playing="false" type="TiedNumber"
+										value="1" />
+								</ColorAllocation>
+							</ColorAllocationList>
+						</BlockShape>
+						<BlockShape id="88869" treatAsType="tile" type="PatternShape"
+							uniqueId="8885C769340-CEA0-461F-A7C8-0FBDB517C799" x="3" y="5">
+							<BaseShape id="88860" type="BasicShape"
+								uniqueId="8885C769340-CEA0-461F-A7C8-0FBDB517C799" x="3" y="5">
+								<Color alpha="255" blue="0" green="255" id="88857" name="#00FF00"
+									negative="false" red="0" />
+								<AttributeList />
+								<ColorAllocationList>
+									<ColorAllocation id="88859">
+										<Color idRef="8881" />
+										<Value displayMode="0" id="88858"
+											idString="4dffbeeb-b17c-4c65-91e2-9cc8e5f811ea" keyAvailable="true"
+											locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+											value="-1073741824" />
+									</ColorAllocation>
+								</ColorAllocationList>
+							</BaseShape>
+							<AttributeList>
+								<Attribute id="88862" name="iterations">
+									<Value id="88861" type="Value" value="1" />
+								</Attribute>
+								<Attribute id="88864" name="inc x">
+									<Value id="88863" type="Value" value="0" />
+								</Attribute>
+								<Attribute id="88866" name="inc y">
+									<Value id="88865" type="Value" value="0" />
+								</Attribute>
+							</AttributeList>
+							<ColorAllocationList>
+								<ColorAllocation id="88868">
+									<Color idRef="8881" />
+									<Value displayMode="0" id="88867"
+										idString="5d61939d-3244-4f14-bf4a-e4712a1bdca6" keyAvailable="true"
+										locked="true" named="false" playing="false" type="TiedNumber"
+										value="1" />
+								</ColorAllocation>
+							</ColorAllocationList>
+						</BlockShape>
+						<BlockShape id="88882" treatAsType="tile" type="PatternShape"
+							uniqueId="8883E0CFC7C-6311-4F17-A88F-2E79729BFD31" x="3" y="6">
+							<BaseShape id="88873" type="BasicShape"
+								uniqueId="8883E0CFC7C-6311-4F17-A88F-2E79729BFD31" x="3" y="6">
+								<Color alpha="255" blue="0" green="255" id="88870" name="#00FF00"
+									negative="false" red="0" />
+								<AttributeList />
+								<ColorAllocationList>
+									<ColorAllocation id="88872">
+										<Color idRef="8881" />
+										<Value displayMode="0" id="88871"
+											idString="5ed1b3e0-3ee0-49c6-8929-c91d72be4234" keyAvailable="true"
+											locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+											value="-1073741824" />
+									</ColorAllocation>
+								</ColorAllocationList>
+							</BaseShape>
+							<AttributeList>
+								<Attribute id="88875" name="iterations">
+									<Value id="88874" type="Value" value="1" />
+								</Attribute>
+								<Attribute id="88877" name="inc x">
+									<Value id="88876" type="Value" value="0" />
+								</Attribute>
+								<Attribute id="88879" name="inc y">
+									<Value id="88878" type="Value" value="0" />
+								</Attribute>
+							</AttributeList>
+							<ColorAllocationList>
+								<ColorAllocation id="88881">
+									<Color idRef="8881" />
+									<Value displayMode="0" id="88880"
+										idString="12300307-09a2-47d2-9c52-5b68717ac02c" keyAvailable="true"
+										locked="true" named="false" playing="false" type="TiedNumber"
+										value="1" />
+								</ColorAllocation>
+							</ColorAllocationList>
+						</BlockShape>
+						<BlockShape id="88895" treatAsType="tile" type="PatternShape"
+							uniqueId="88857CCEA29-6537-4C25-840E-D0CAD35DE31D" x="2" y="6">
+							<BaseShape id="88886" type="BasicShape"
+								uniqueId="88857CCEA29-6537-4C25-840E-D0CAD35DE31D" x="2" y="6">
+								<Color alpha="255" blue="0" green="255" id="88883" name="#00FF00"
+									negative="false" red="0" />
+								<AttributeList />
+								<ColorAllocationList>
+									<ColorAllocation id="88885">
+										<Color idRef="8881" />
+										<Value displayMode="0" id="88884"
+											idString="4c43e48a-6511-40c5-9b74-00dbecdbc9b6" keyAvailable="true"
+											locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+											value="-1073741824" />
+									</ColorAllocation>
+								</ColorAllocationList>
+							</BaseShape>
+							<AttributeList>
+								<Attribute id="88888" name="iterations">
+									<Value id="88887" type="Value" value="1" />
+								</Attribute>
+								<Attribute id="88890" name="inc x">
+									<Value id="88889" type="Value" value="0" />
+								</Attribute>
+								<Attribute id="88892" name="inc y">
+									<Value id="88891" type="Value" value="0" />
+								</Attribute>
+							</AttributeList>
+							<ColorAllocationList>
+								<ColorAllocation id="88894">
+									<Color idRef="8881" />
+									<Value displayMode="0" id="88893"
+										idString="6d2f9091-73a3-4c74-b461-7e181b5d5ca6" keyAvailable="true"
+										locked="true" named="false" playing="false" type="TiedNumber"
+										value="1" />
+								</ColorAllocation>
+							</ColorAllocationList>
+						</BlockShape>
+					</BlockShapeList>
+					<TiedNumberList>
+						<TiedNumber displayMode="0" id="88896"
+							idString="03c14653-6b96-45c4-8600-768eb1546ef9" keyAvailable="false"
+							locked="true" named="false" playing="false" type="TiedNumber"
+							value="7" />
+					</TiedNumberList>
+					<AttributeList />
+					<ColorAllocationList>
+						<ColorAllocation id="88898">
+							<Color idRef="8881" />
+							<Value displayMode="0" id="88897"
+								idString="130a54ca-5258-487a-aeb3-e9706476dcc6" keyAvailable="true"
+								locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+								value="0" />
+						</ColorAllocation>
+					</ColorAllocationList>
+				</BaseShape>
+				<AttributeList>
+					<Attribute id="888101" name="iterations">
+						<Value id="888100" type="Value" value="1" />
+					</Attribute>
+					<Attribute id="888103" name="inc x">
+						<Value id="888102" type="Value" value="0" />
+					</Attribute>
+					<Attribute id="888105" name="inc y">
+						<Value id="888104" type="Value" value="0" />
+					</Attribute>
+				</AttributeList>
+				<ColorAllocationList>
+					<ColorAllocation id="888107">
+						<Color idRef="8881" />
+						<Value displayMode="0" id="888106"
+							idString="9672d625-50f5-4120-abea-48a02ec41a35" keyAvailable="true"
+							locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+							value="-1073741824" />
+					</ColorAllocation>
+				</ColorAllocationList>
+			</BaseShape>
+			<AttributeList>
+				<Attribute id="888110" name="iterations">
+					<Value displayMode="2" id="888109"
+						idString="DE9504E3-C0AE-4032-ADFC-6613EE5C2F1B" keyAvailable="true"
+						locked="false" name="n" named="true" playing="false" type="TiedNumber"
+						value="6" />
+				</Attribute>
+				<Attribute id="888112" name="inc x">
+					<Value displayMode="0" id="888111" idString="NHGT5erpuWDpe00tAtSw68"
+						keyAvailable="true" locked="true" name="unnamed" named="true"
+						playing="false" type="TiedNumber" value="2" />
+				</Attribute>
+				<Attribute id="888114" name="inc y">
+					<Value displayMode="0" id="888113" idString="GsRJcKQWbEd-lazKvqnT76"
+						keyAvailable="true" locked="true" name="unnamed" named="true"
+						playing="false" type="TiedNumber" value="0" />
+				</Attribute>
+			</AttributeList>
+			<ColorAllocationList>
+				<ColorAllocation id="888116">
+					<Color idRef="8881" />
+					<Value displayMode="0" id="888115" idString="pg2Lc0vT-bY8kk-wZXlw65"
+						keyAvailable="true" locked="true" name="unnamed" named="true"
+						playing="false" type="TiedNumber" value="35" />
+				</ColorAllocation>
+			</ColorAllocationList>
+		</BlockShape>
+	</BlockShapeList>
+	<ExpressionList>
+		<Expression idRef="888109" />
+	</ExpressionList>
+	<ColorAllocationList />
+	<TotalAllocationExpression displayMode="0"
+		id="888118" idString="04d3dfe7-aa7f-46af-b8d7-56f743e3fbf0" keyAvailable="true"
+		locked="true" named="false" playing="false" type="UnspecifiedTiedNumber"
+		value="0" />
+	<LocatedExpressionList>
+		<LocatedExpression id="888120"
+			uniqueId="8889CC6408E-D9CC-4C50-9FC5-6213B19B30A5" x="-540" y="-99">
+			<Expression displayMode="0" id="888119"
+				idString="123FFB39-610B-4FE4-9BEA-8284DAD1896F" keyAvailable="true"
+				locked="true" name="unnamed" named="true" playing="false" type="TiedNumber"
+				value="7" />
+		</LocatedExpression>
+	</LocatedExpressionList>
+</ExpresserModel>
+   </initialModel>
+
+	<!-- == == == == == == == == == == == == == -->
+	<!-- The "intelligent" section starts here  --> 
+	<!-- == == == == == == == == == == == == == -->
+	
+	<expected-constructions>
+<ExpresserModel id="139990" name="">
+<Palette id="99999994">
+<ModelColorList>
+<ModelColor alpha="255" blue="0" green="0" id="99999995" name="red" negative="false" red="255"/>
+<ModelColor alpha="255" blue="0" green="255" id="99999996" name="green" negative="false" red="0"/>
+<ModelColor alpha="255" blue="255" green="0" id="99999997" name="blue" negative="false" red="0"/>
+<ModelColor alpha="255" blue="0" green="255" id="99999998" name="yellow" negative="false" red="255"/>
+<ModelColor alpha="255" blue="0" green="0" id="99999999" name="red (negative)" negative="true" red="255"/>
+<ModelColor alpha="255" blue="0" green="255" id="999999990" name="green (negative)" negative="true" red="0"/>
+<ModelColor alpha="255" blue="255" green="0" id="999999991" name="blue (negative)" negative="true" red="0"/>
+<ModelColor alpha="255" blue="0" green="255" id="999999992" name="yellow (negative)" negative="true" red="255"/>
+</ModelColorList>
+</Palette>
+<BlockShapeList>
+<BlockShape id="109990" type="PatternShape" x="3" y="2">
+<BaseShape id="999999993" type="GroupShape" x="3" y="2">
+<BlockShapeList>
+<BlockShape id="29990" type="PatternShape" x="3" y="3">
+<BaseShape id="19999991" type="BasicShape" x="3" y="3">
+<Color idRef="99999996"/>
+<AttributeList/>
+<ColorAllocationList>
+<ColorAllocation id="19999992">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="19999993" idString="f8b77e81-8748-401f-8453-cd2b6f58ef7b" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet id="19999994">
+<User firstname="Unknown" genderId="1" id="19999995" lastname="Unknown" username="manolis">
+<Date day="4" id="999999994" month="6" year="31"/>
+</User>
+</UserSet>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BaseShape>
+<AttributeList>
+<Attribute id="19999996" name="iterations">
+<Value id="19999997" type="Value" value="1"/>
+</Attribute>
+<Attribute id="19999998" name="inc x">
+<Value id="19999999" type="Value" value="0"/>
+</Attribute>
+<Attribute id="29991" name="inc y">
+<Value id="199999990" type="Value" value="0"/>
+</Attribute>
+</AttributeList>
+<ColorAllocationList>
+<ColorAllocation id="29992">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="29993" idString="9e61cf1b-ed13-46e8-b6e1-b0ac67ad68b7" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="1">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BlockShape>
+<BlockShape id="39990" type="PatternShape" x="3" y="5">
+<BaseShape id="29994" type="BasicShape" x="3" y="5">
+<Color idRef="99999996"/>
+<AttributeList/>
+<ColorAllocationList>
+<ColorAllocation id="29995">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="29996" idString="9c0f3213-a2b5-495f-b4e9-4fcd4e3a2828" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BaseShape>
+<AttributeList>
+<Attribute id="29997" name="iterations">
+<Value id="29998" type="Value" value="1"/>
+</Attribute>
+<Attribute id="39991" name="inc x">
+<Value id="29999" type="Value" value="0"/>
+</Attribute>
+<Attribute id="39992" name="inc y">
+<Value id="39993" type="Value" value="0"/>
+</Attribute>
+</AttributeList>
+<ColorAllocationList>
+<ColorAllocation id="39994">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="39995" idString="3310dac5-3a83-4553-a190-5db932ff9991" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="1">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BlockShape>
+<BlockShape id="49990" type="PatternShape" x="3" y="4">
+<BaseShape id="39996" type="BasicShape" x="3" y="4">
+<Color idRef="99999996"/>
+<AttributeList/>
+<ColorAllocationList>
+<ColorAllocation id="39997">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="39998" idString="94219972-a1fb-4296-8a15-2acbeb08fd4e" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BaseShape>
+<AttributeList>
+<Attribute id="49991" name="iterations">
+<Value id="39999" type="Value" value="1"/>
+</Attribute>
+<Attribute id="49992" name="inc x">
+<Value id="49993" type="Value" value="0"/>
+</Attribute>
+<Attribute id="49994" name="inc y">
+<Value id="49995" type="Value" value="0"/>
+</Attribute>
+</AttributeList>
+<ColorAllocationList>
+<ColorAllocation id="49996">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="49997" idString="9f4e6334-d675-414a-850c-4d4b65b173e3" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="1">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BlockShape>
+<BlockShape id="59990" type="PatternShape" x="4" y="6">
+<BaseShape id="59991" type="BasicShape" x="4" y="6">
+<Color idRef="99999996"/>
+<AttributeList/>
+<ColorAllocationList>
+<ColorAllocation id="49998">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="49999" idString="481e3630-54b9-4efa-9891-332b1a572968" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BaseShape>
+<AttributeList>
+<Attribute id="59992" name="iterations">
+<Value id="59993" type="Value" value="1"/>
+</Attribute>
+<Attribute id="59994" name="inc x">
+<Value id="59995" type="Value" value="0"/>
+</Attribute>
+<Attribute id="59996" name="inc y">
+<Value id="59997" type="Value" value="0"/>
+</Attribute>
+</AttributeList>
+<ColorAllocationList>
+<ColorAllocation id="59998">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="59999" idString="93ab5c07-a4c5-4492-aac1-964ac7ecd70a" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="1">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BlockShape>
+<BlockShape id="79990" type="PatternShape" x="3" y="6">
+<BaseShape id="69990" type="BasicShape" x="3" y="6">
+<Color idRef="99999996"/>
+<AttributeList/>
+<ColorAllocationList>
+<ColorAllocation id="69991">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="69992" idString="a344a835-ce68-4fa6-b226-e5a56daf9b5a" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BaseShape>
+<AttributeList>
+<Attribute id="69993" name="iterations">
+<Value id="69994" type="Value" value="1"/>
+</Attribute>
+<Attribute id="69995" name="inc x">
+<Value id="69996" type="Value" value="0"/>
+</Attribute>
+<Attribute id="69997" name="inc y">
+<Value id="69998" type="Value" value="0"/>
+</Attribute>
+</AttributeList>
+<ColorAllocationList>
+<ColorAllocation id="79991">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="69999" idString="4aabbe77-22d4-4147-a641-ac23e8d16118" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="1">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BlockShape>
+<BlockShape id="89990" type="PatternShape" x="3" y="2">
+<BaseShape id="79992" type="BasicShape" x="3" y="2">
+<Color idRef="99999996"/>
+<AttributeList/>
+<ColorAllocationList>
+<ColorAllocation id="79993">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="79994" idString="e6d0fb1c-9824-47f6-b4d8-ec5019b77508" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BaseShape>
+<AttributeList>
+<Attribute id="79995" name="iterations">
+<Value id="79996" type="Value" value="1"/>
+</Attribute>
+<Attribute id="79997" name="inc x">
+<Value id="79998" type="Value" value="0"/>
+</Attribute>
+<Attribute id="89991" name="inc y">
+<Value id="79999" type="Value" value="0"/>
+</Attribute>
+</AttributeList>
+<ColorAllocationList>
+<ColorAllocation id="89992">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="89993" idString="3c090bd0-7525-4ae8-801c-e41b10beabb9" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="1">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BlockShape>
+<BlockShape id="999999995" type="PatternShape" x="4" y="2">
+<BaseShape id="89994" type="BasicShape" x="4" y="2">
+<Color idRef="99999996"/>
+<AttributeList/>
+<ColorAllocationList>
+<ColorAllocation id="89995">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="89996" idString="b8c629f4-fc4c-4634-a3e9-89bfa534be42" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BaseShape>
+<AttributeList>
+<Attribute id="89997" name="iterations">
+<Value id="89998" type="Value" value="1"/>
+</Attribute>
+<Attribute id="999999996" name="inc x">
+<Value id="89999" type="Value" value="0"/>
+</Attribute>
+<Attribute id="999999997" name="inc y">
+<Value id="999999998" type="Value" value="0"/>
+</Attribute>
+</AttributeList>
+<ColorAllocationList>
+<ColorAllocation id="999999999">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="9999999990" idString="0ddbd8c9-0a28-4eba-a1e0-b1bf93b3b6ff" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="1">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BlockShape>
+</BlockShapeList>
+<TiedNumberList>
+<TiedNumber displayMode="0" id="9999999991" idString="01be1a9b-ae91-4dad-a369-45c18bac2195" keyAvailable="false" locked="true" name="unnamed" playing="false" type="TiedNumber" value="7">
+<UserSet idRef="19999994"/>
+</TiedNumber>
+</TiedNumberList>
+<AttributeList/>
+<ColorAllocationList>
+<ColorAllocation id="9999999992">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="9999999993" idString="de75c8b1-4b93-466b-901e-91a9f61d0384" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="0">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BaseShape>
+<AttributeList>
+<Attribute id="109991" name="iterations">
+<Value displayMode="0" id="109992" idString="5ef05c42-8213-4111-b513-69c0225be22f" keyAvailable="true" locked="false" name="unnamed" playing="false" type="TiedNumber" value="5">
+<UserSet idRef="19999994"/>
+</Value>
+</Attribute>
+<Attribute id="109993" name="inc x">
+<Value displayMode="0" id="109994" idString="144276b2-9c01-4651-9a65-3dbbc25fb1b1" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="2">
+<UserSet idRef="19999994"/>
+</Value>
+</Attribute>
+<Attribute id="109995" name="inc y">
+<Value displayMode="0" id="109996" idString="49cb186b-3c5b-495e-95f1-515986e5c428" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="0">
+<UserSet idRef="19999994"/>
+</Value>
+</Attribute>
+</AttributeList>
+<ColorAllocationList>
+<ColorAllocation id="109997">
+<Color idRef="99999996"/>
+<Value id="109998" name="multiply" type="Operation">
+<ExpressionList>
+<Expression idRef="109992"/>
+<Expression idRef="9999999991"/>
+</ExpressionList>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BlockShape>
+<BlockShape id="119990" type="PatternShape" x="13" y="2">
+<BaseShape id="119991" type="BasicShape" x="13" y="2">
+<Color idRef="99999997"/>
+<AttributeList/>
+<ColorAllocationList>
+<ColorAllocation id="119992">
+<Color idRef="99999997"/>
+<Value displayMode="0" id="109999" idString="115fc4ef-de7f-4e89-bf3a-610a07b74a18" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+</BaseShape>
+<AttributeList>
+<Attribute id="119993" name="iterations">
+<Value displayMode="0" id="119994" idString="6e3f5e7b-6dbd-4c67-8529-8074c287b03a" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="5">
+<UserSet idRef="19999994"/>
+</Value>
+</Attribute>
+<Attribute id="119995" name="inc x">
+<Value displayMode="0" id="119996" idString="cfb8d698-a4fb-469f-b047-99f04eddbe68" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="0">
+<UserSet idRef="19999994"/>
+</Value>
+</Attribute>
+<Attribute id="119997" name="inc y">
+<Value displayMode="0" id="119998" idString="30c6de31-bec0-46f4-9f65-84c5e084bc1d" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="1">
+<UserSet idRef="19999994"/>
+</Value>
+</Attribute>
+</AttributeList>
+<ColorAllocationList>
+<ColorAllocation id="119999">
+<Color idRef="99999997"/>
+<Value idRef="119994"/>
+</ColorAllocation>
+</ColorAllocationList>
+</BlockShape>
+</BlockShapeList>
+<ExpressionList>
+<Expression idRef="109992"/>
+</ExpressionList>
+<ColorAllocationList>
+<ColorAllocation id="129990">
+<Color idRef="99999997"/>
+<Value displayMode="0" id="129991" idString="683be4a7-7a39-4e5a-8fb6-de24176e1242" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+<ColorAllocation id="129992">
+<Color idRef="99999996"/>
+<Value displayMode="0" id="129993" idString="a860f51f-c643-4e2a-bdd7-da634b923ec0" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+<ColorAllocation id="129994">
+<Color idRef="99999995"/>
+<Value displayMode="0" id="129995" idString="e77775e0-3b3e-47f1-8e09-7a16bc27285d" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+<ColorAllocation id="129996">
+<Color idRef="99999998"/>
+<Value displayMode="0" id="129997" idString="13cf6d21-09ed-42b6-994e-178ea9b9eb6c" keyAvailable="true" locked="true" name="unnamed" playing="false" type="TiedNumber" value="-1073741824">
+<UserSet idRef="19999994"/>
+</Value>
+</ColorAllocation>
+</ColorAllocationList>
+<TotalAllocationExpression id="129998" name="add" type="Operation">
+<ExpressionList>
+<Expression id="129999" name="multiply" type="Operation">
+<ExpressionList>
+<Expression idRef="109992"/>
+<Expression idRef="9999999991"/>
+</ExpressionList>
+</Expression>
+<Expression idRef="119994"/>
+</ExpressionList>
+</TotalAllocationExpression>
+<LocatedExpressionList/>
+</ExpresserModel>
+</expected-constructions>
+
+	<common-misconstructions>
+		<common-misconstruction>
+			<!-- a whole model here -->
+		</common-misconstruction>
+		<common-misconstruction>
+			<!-- a whole model here -->
+		</common-misconstruction>
+		<common-misconstruction>
+			<!-- a whole model here -->
+		</common-misconstruction>
+     	<!-- etc, etc -->
+	</common-misconstructions>
+
+	<learningObjectives>
+        <learningObjective id="2"/><!-- Connect Construction Expression Knowledge -->
+        <learningObjective id="3"/><!-- Connect Expression Expression Knowledge -->
+        <learningObjective id="4"/><!-- Dynamism As Proof Of Generalisation Knowledge -->
+        <learningObjective id="0"/><!-- General Construction Knowledge -->
+        <learningObjective id="1"/><!-- General Expression Knowledge -->
+        <learningObjective id="10"/><!-- Animation Knowledge -->
+        <learningObjective id="7"/><!-- Dragging Tiles Knowledge -->
+        <learningObjective id="4"/><!-- Global Coloring Rule Knowledge -->
+    </learningObjectives>
+    
+   	<goalsDefinition>
+        <goal id="0"/><!-- Building Block -->
+        <goal id="1"/><!-- Construct Pattern -->
+        <goal id="2"/><!-- Colour My World -->
+        <goal id="10"/><!-- Name Variable -->
+        <goal id="3"/><!-- Structural Generality -->
+        <goal id="4"/><!-- FIND_GENERAL_RULE -->
+    </goalsDefinition>
+  
+   	<rulesReasoner id="2"/><!-- Linear Model One External Variable -->
+   	
+   	<feedbackGenerator id=""/>
+   
+</activity-description>

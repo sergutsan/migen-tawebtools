@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Migen</title>
+<link href="./style/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="./style/migen.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./lib/jquery-1.9.0.js"></script>
+<script type="text/javascript" src="./lib/jquery-ui.js"></script>
+<script type="text/javascript" src="./lib/taffy.js"></script>
+<script type="text/javascript" src="./lib/migen.js"></script>
+
+<script type="text/javascript">
+
+</script>
+
+</head>
+<body>
+<table>
+	<tr>
+		<td width="10%"><label class="ui-widget" for="task">Select Task:</label></td>
+		<td width="20%">
+			<select id="task">
+			<option value="task 1" selected="selected">task 1</option>
+			<option value="task 2">task 2</option>
+			<option value="task 3">task 3</option>
+			</select>
+		</td>
+		<td rowspan="3">
+			<textarea id="messages" rows="5" readonly></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td><label class="ui-widget" for="time">Select Time:</label></td>
+		<td><div id="time"></div></td>
+	</tr>
+	<tr>
+		<td>
+		<button id="refresh">Refresh</button>
+		</td>
+		<td>
+		<div id="progressbar"></div>
+		</td>
+	</tr>
+</table>
+
+<div id="tabs">
+	<ul id="tabs-nav">
+		<li><a href="#dynamics">Class Dynamics</a></li>
+		<li><a href="#goals">Goal Achievement</a></li>
+	</ul>
+	<div id="dynamics"></div>
+	<div id="goals"></div>
+</div>
+</body>
+</html>

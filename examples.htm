@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		
+		<link href="./style/jquery-ui.css" rel="stylesheet" type="text/css">
+		<link href="./style/migen.css" rel="stylesheet" type="text/css">
+
+		<script type="text/javascript" src="./lib/jquery-1.9.0.js"></script>
+		<script type="text/javascript" src="./lib/jquery-ui.js"></script>
+		
+		<script type="text/javascript" src="./lib/prototype.js"></script>
+		<script type="text/javascript" src="./lib/scriptaculous/scriptaculous.js"></script>
+		<script type="text/javascript" src="./lib/HelpBalloon.js"></script>
+		<title></title>
+
+		<script type="text/javascript">
+		
+		var $j = jQuery.noConflict();
+		
+		$j(document).ready
+		(
+			function()
+			{
+				var circle=$j('<div class="circle greencolour" id="circle" title="test circle" url="test.html"><p>yahoo</p></div>');
+				circle.appendTo('div#dynamics');
+
+				$j('div.circle').draggable
+				({
+					containment: 'parent'
+				});
+
+				HelpBalloon.Options.prototype = Object.extend
+				(
+					HelpBalloon.Options.prototype,
+					{
+						icon: './images/icon.gif',
+						button: './images/button.png',
+						balloonPrefix: './images/balloon-'
+					}
+				);
+				
+				$j('div#circle').dblclick
+				(
+					function()
+					{
+						var baloon=
+						new HelpBalloon
+						(
+							{
+								dataURL: 'nogoals.html',
+								cacheRemoteContent: false,
+								icon: this,
+								useEvent: ['doubleclick'],
+								balloonDimensions: [600,480] 
+							}
+						);
+						baloon.show();
+					}
+				);
+			}			
+		);
+		
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+		</script>
+		
+		<div id="dynamics" class="tabs"></div>
+	
+	</body>
+</html>

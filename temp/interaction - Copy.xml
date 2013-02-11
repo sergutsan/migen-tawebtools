@@ -1,0 +1,67 @@
+<?xml version='1.0' ?>
+<!DOCTYPE interactiondata SYSTEM "file://C:\Users\sokratis\Dropbox\Public\LKLProjects\temp\test.dtd">
+<interactiondata>
+	<preamble>
+		<users>
+			<user_def id="" firstname="" lastname="" role="">
+				<description/>
+			</user_def>
+		</users>
+		<groups>
+			<group_def id="" members="">
+				<time_range from="" to=""/>
+				<description/>
+			</group_def>
+		</groups>
+		<objects>
+			<object_def type="" id="">
+				<description/>
+				<properties>
+					<property name="" value=""/>
+				</properties>
+				<additional_information type=""/>
+			</object_def>
+		</objects>
+		<roles>
+			<role_def id="">
+				<description/>
+			</role_def>
+		</roles>
+		<conditions creator_application="" application_version="" experimenter="">
+			<instructions>
+				<instruction>
+					<PCDATA/>
+				</instruction>
+			</instructions>
+			<description/>
+		</conditions>
+		<document_information/>
+		<time_range from="" to=""/>
+		<description/>
+		<additional_information type=""/>
+	</preamble>
+	<actions>
+		<action time="">
+			<actiontype classification="create" type="" logged="true" succeed="true">
+				<additional_information type=""/>
+			</actiontype>
+			<user id="" ip="" role="originator" user_role="">
+				<additional_information type=""/>
+			</user>
+			<object id="" type="">
+				<properties>
+					<property name="" value=""/>
+				</properties>
+				<additional_information type=""/>
+			</object>
+			<content>
+				<description/>
+				<properties>
+					<property name="" value=""/>
+				</properties>
+				<additional_information type=""/>
+			</content>
+			<transport type=""/>
+		</action>
+	</actions>
+</interactiondata>

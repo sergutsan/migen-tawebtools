@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>jQuery UI Draggable - Default functionality</title>
+<link href="./style/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="./style/style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="./lib/jquery-1.9.0.js"></script>
+<script type="text/javascript" src="./lib/jquery-ui.js"></script>
+<script type="text/javascript" src="./lib/prototype.js"></script>
+<script type="text/javascript" src="./lib/scriptaculous.js"></script>
+<script type="text/javascript" src="./lib/HelpBalloon.js"></script>
+
+<script>
+
+HelpBalloon.Options.prototype=Object.extend
+(
+	HelpBalloon.Options.prototype,
+	{
+		icon: './images/icon.gif',
+		button: './images/button.png',
+		balloonPrefix: './images/balloon-'
+	}
+);
+		
+</script>
+</head>
+<body>
+
+
+
+<div class="example">
+	<div class="right"><script type="text/javascript">
+	var hb2 = new HelpBalloon({
+		dataURL: 'assets/test.xml'
+	});
+</script></div>
+	<h2>Using XML to populate a balloon.</h2>
+	<br style="clear: both"/>
+	This example illustrates how to populate a balloon's using and XML document (AJAX)
+	<code style="white-space:pre">&lt;script type=&quot;text/javascript&quot;&gt;
+	var hb2 = new HelpBalloon({
+		dataURL: 'assets/test.xml'
+	});
+&lt;/script&gt;</code>
+</div>
+<div class="example">
+	<div class="right"><script type="text/javascript">
+	var hb2 = new HelpBalloon({
+		dataURL: 'assets/test.xml'
+	});
+</script></div>
+	<h2>Using XML to populate a balloon.</h2>
+	<br style="clear: both"/>
+	This example illustrates how to populate a balloon's using and XML document (AJAX)
+	<code style="white-space:pre">&lt;script type=&quot;text/javascript&quot;&gt;
+	var hb2 = new HelpBalloon({
+		dataURL: 'assets/test.xml'
+	});
+&lt;/script&gt;</code>
+</div>
+<div class="example">
+	<div class="right"><script type="text/javascript">
+	var hb2 = new HelpBalloon({
+		dataURL: 'assets/test.xml'
+	});
+</script></div>
+	<h2>Using XML to populate a balloon.</h2>
+	<br style="clear: both"/>
+	This example illustrates how to populate a balloon's using and XML document (AJAX)
+	<code style="white-space:pre">&lt;script type=&quot;text/javascript&quot;&gt;
+	var hb2 = new HelpBalloon({
+		dataURL: 'assets/test.xml'
+	});
+&lt;/script&gt;</code>
+</div>
+
+
+</body>
+</html>
