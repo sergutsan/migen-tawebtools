@@ -78,7 +78,7 @@
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!-- Student is inactive (i.e. paint circle orange)  -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-		<action time="1359365427506">
+		<action time="1359365427529">
 			<actiontype classification="create" type="" logged="true" succeed="true">
 				<additional_information type=""/>
 			</actiontype>
@@ -104,7 +104,7 @@
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!-- Student is active (i.e. paint circle green)  -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-		<action time="1359365427506">
+		<action time="1359365427530">
 			<actiontype classification="create" type="" logged="true" succeed="true">
 				<additional_information type=""/>
 			</actiontype>
@@ -130,7 +130,7 @@
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!-- student is waiting for the teacher (circle red) -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-		<action time="1359365427506">
+		<action time="1359365447534">
 			<actiontype classification="create" type="" logged="true" succeed="true">
 				<additional_information type=""/>
 			</actiontype>
@@ -148,7 +148,7 @@
 				<properties>
 					<property name="FEEDBACK_STRATEGY_ID" value="999"/>
 					<property name="FEEDBACK_STRATEGY_NAME" value="CALL_TEACHER"/> <!-- optional -->
-					<property name="ANALYSIS_TYPE" value="FeedbackShown"/>
+					<property name="ANALYSIS_TYPE" value="FeedbackGenerated"/>
 				</properties>
 				<additional_information type=""/>
 			</content>
@@ -158,7 +158,7 @@
   <!-- Student has accomplished a goal        -->
   <!-- (square green, add number to circle) - -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-		<action time="1359365427506">
+		<action time="1359365457535">
 			<actiontype classification="create" type="" logged="true" succeed="true">
 				<additional_information type=""/>
 			</actiontype>
@@ -187,7 +187,7 @@
   <!-- Student has not accomplished a goal    -->
   <!-- (square white, no change in the circle) - -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-		<action time="1359365427506">
+		<action time="1359365477536">
 			<actiontype classification="create" type="" logged="true" succeed="true">
 				<additional_information type=""/>
 			</actiontype>
@@ -216,7 +216,7 @@
   <!-- Student has accomplished a goal        -->
   <!-- (square green, add number to circle) - -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-		<action time="1359365427506">
+		<action time="1359365487556">
 			<actiontype classification="create" type="" logged="true" succeed="true">
 				<additional_information type=""/>
 			</actiontype>
@@ -245,7 +245,7 @@
   <!-- Student has not accomplished a goal    -->
   <!-- (square white, no change in the circle) - -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-		<action time="1359365427508">
+		<action time="1359365487558">
 			<actiontype classification="create" type="" logged="true" succeed="true">
 				<additional_information type=""/>
 			</actiontype>
@@ -274,7 +274,7 @@
   <!-- Student had accomplished a goal but decided to go back -->
   <!-- (square orange, subtract number from circle) - -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-		<action time="1359365427507">
+		<action time="1359365497687">
 			<actiontype classification="create" type="" logged="true" succeed="true">
 				<additional_information type=""/>
 			</actiontype>

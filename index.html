@@ -8,11 +8,6 @@
 
 <script type="text/javascript" src="./lib/jquery-1.9.0.js"></script>
 <script type="text/javascript" src="./lib/jquery-ui.js"></script>
-
-<script type="text/javascript" src="./lib/prototype.js"></script>
-<script type="text/javascript" src="./lib/scriptaculous/scriptaculous.js"></script>
-<script type="text/javascript" src="./lib/HelpBalloon.js"></script>
-
 <script type="text/javascript" src="./lib/taffy.js"></script>
 
 <script type="text/javascript" src="./lib/utils.js"></script>
@@ -23,55 +18,95 @@
 
 </head>
 <body>
-<table class="toolbar">
+ <div id="radio">
+	<input type="radio" id="toolbar" name="radio" checked="checked" /><label for="toolbar">Tool Bar</label>
+	<input type="radio" id="eventlog" name="radio" /><label for="eventlog">Event Log</label>
+</div>
+<table class="eventlog">
+	<thead>
 	<tr>
-		<td width="10%"><label class="ui-widget" for="task">Select Task:</label></td>
-		<td width="20%">
+		<th>Session Information</th><th>Technical Information</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td width="50%">
+			<textarea id="session_info" rows="5" readonly></textarea>
+		</td>
+		<td>
+			<textarea id="technical_info" rows="5" readonly></textarea>
+		</td>
+	</tr>
+	</tbody>
+</table>
+<table class="toolbar" cellpadding="5" cellspacing="10">
+	<thead>
+	<tr>
+		<th width="20%"><label class="ui-widget" for="starttime">Start Time</label></th>
+		<th width="20%"><label class="ui-widget" for="lastupdate">Last Update</label></th>
+		<th width="20%"><label class="ui-widget" for="currenttime">Current Time</label></th>
+		<th width="20%" colspan="3"><label class="ui-widget" for="selectedtime">Selected Time</label></th>
+		<th width="20%" colspan="3"><label class="ui-widget" for="time">Time Selector</label></th>
+	</tr>
+	</thead>
+	<tr>
+		<td id="starttime" class="messages"></td>
+		<td id="lastupdate" class="messages"></td>
+		<td id="currenttime" class="messages"></td>
+		<td colspan="3" id="selectedtime" class="messages"></td>
+		<td colspan="3"><div id="time"></div></td>	
+	</tr>
+	<tr>
+		<td>
+			<div id="progressbar"></div>
+		</td>
+		<td>
 			<select id="task">
 			<option value="task 1" selected="selected">task 1</option>
 			<option value="task 2">task 2</option>
 			<option value="task 3">task 3</option>
 			</select>
 		</td>
-		<td width="5%" />
-		<td width="5%" />
-		<td rowspan="3">
-			<textarea id="messages" rows="5" readonly></textarea>
-		</td>
-	</tr>
-	<tr>
-		<td><label class="ui-widget" for="time">Select Time:</label></td>
-		<td><div id="time"></div></td>
 		<td>
-		<button id="gazoomin">+</button>
+		<button id="refresh" style="width:100%">Refresh</button>
+		</td>
+		<td align="center" width="8%">
+		<img width="36" height="38" src="./images/magnifier.png"/>
 		</td>
 		<td>
-		<button id="gazoomout">-</button>
-		</td>
-	</tr>
-	<tr>
-		<td>
-		<button id="refresh">Refresh</button>
+		<button id="zoomin" style="width:100%">+</button>
 		</td>
 		<td>
-		<div id="progressbar"></div>
+		<button id="zoomout" style="width:100%">-</button>
+		</td>
+		<td width="8%">
+			<select id="timestep">
+			<option value="1" selected="selected">1 sec</option>
+			<option value="2">1 min</option>
+			<option value="3">5 min</option>
+			<option value="4">10 min</option>
+			<option value="5">30 min</option>
+			</select>
 		</td>
 		<td>
-		<button id="cdzoomin">+</button>
+		<button id="timeincrease" style="width:100%">+</button>
 		</td>
 		<td>
-		<button id="cdzoomout">-</button>
+		<button id="timedecrease" style="width:100%">-</button>
 		</td>
 	</tr>
 </table>
 
 <div id="tabs" class="content">
 	<ul id="tabs-nav">
-		<li><a href="#dynamics">Class Dynamics</a></li>
+		<li><a href="#dynamics">Classroom Dynamics</a></li>
 		<li><a href="#goals">Goal Achievement</a></li>
 	</ul>
 	<div id="dynamics" class="tabs"></div>
 	<div id="goals" class="tabs"></div>
 </div>
+
+<div id="dialog"></div>
+
 </body>
 </html>

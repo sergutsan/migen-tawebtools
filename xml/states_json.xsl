@@ -6,7 +6,7 @@
 
 <xsl:template match="/">
 	[ 
-	<xsl:for-each select="interactiondata/actions/action[content/properties/property/@value='InactivityVerifier'] | interactiondata/actions/action[content/properties/property/@value='FeedbackShown']">
+	<xsl:for-each select="interactiondata/actions/action[content/properties/property/@value='InactivityVerifier'] | interactiondata/actions/action[content/properties/property/@value='FeedbackGenerated']">
 
 		<xsl:if test="position() &gt; 1">,</xsl:if>
 		{

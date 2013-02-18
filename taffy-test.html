@@ -29,8 +29,14 @@
     {"id":9,"gender":"M","first":"Jeff","last":"Stevenson","city":"Washington, D.C.","status":"Active"},
     {"id":10,"gender":"F","first":"Jennifer","last":"Gill","city":"Seattle, WA","status":"Active"}
   ]);
-  
-
+ 
+ 
+	var newdb=test2().filter({"id":{lte:2}});
+	alert(newdb.count());
+	alert(test2().count());
+ 
+ /* 
+ 
   alert(test1().count());
   //alert(test2().count());
   test2.merge(test1().get());
@@ -54,7 +60,7 @@ test2=null;
 		alert("id: "+id+" name: "+first+" status: "+status);
 	}
   );
-  
+ */ 
  </script>
 </head>
 <body>

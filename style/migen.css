@@ -4,6 +4,13 @@ body,html
 	background-color: #FEEEBD
 }
 
+.messages
+{
+	text-align: center;
+	border: 1px solid black;
+	background-color: #FFFFFF
+}
+
 textarea
 {
 	width: 100%;
@@ -89,6 +96,14 @@ td
 	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, red 100%, orange 95%);
 	background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, red);
 	background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, red 100%, orange 95%);
+}
+
+.whitecolour
+{
+	background-color: white;
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, grey 0%, white 100%, grey 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, grey, white);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, grey 0%, white 100%, grey 95%);
 }
 
 .scroll-pane { overflow: auto; width: 99%; float:left; }
