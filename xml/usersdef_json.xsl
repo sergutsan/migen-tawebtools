@@ -6,11 +6,11 @@
 
 <xsl:template match="/">
  	[
-	<xsl:for-each select="interactiondata/preamble/users/users/user_def[normalize-space(@role)='Learner']">
+	<xsl:for-each select="interactiondata/preamble/users/user_def[normalize-space(@role)='Learner']">
 
 		<xsl:if test="position() &gt; 1">,</xsl:if>
 		{
-				"id":<xsl:value-of select="@id"/>,
+				"id":"<xsl:value-of select="@id"/>",
 				"firstname":"<xsl:value-of select="normalize-space(@firstname)"/>",
 				"lastname":"<xsl:value-of select="normalize-space(@lastname)"/>",
 				"cd_visible":false,

@@ -6,9 +6,12 @@
 
 <xsl:template match="interactiondata/preamble/conditions/instructions/instruction">
 
-{
-	url:"<xsl:value-of select="."/>"
-}
+	<xsl:if test="@type='EXPRESSER_TASK'">
+	{
+		description:"<xsl:value-of select="description/."/>",
+		url:"<xsl:value-of select="properties/property/@value"/>"
+	}
+	</xsl:if>
 	
 </xsl:template>
 

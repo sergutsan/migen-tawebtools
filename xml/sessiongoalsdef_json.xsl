@@ -6,12 +6,12 @@
 
 <xsl:template match="/">
 	[
-    <xsl:for-each select="item-list/item">
+    <xsl:for-each select="activity-description/goalsDefinition/goal">
 	
 		<xsl:if test="position() &gt; 1">,</xsl:if>
 		{
 			"id":"<xsl:value-of select="@id"/>",
-			"description":"<xsl:value-of select="@name"/>"
+			"description":"<xsl:value-of select="following-sibling::comment()"/>"
 		}
     </xsl:for-each>
 	]

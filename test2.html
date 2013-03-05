@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>jQuery UI Draggable - Default functionality</title>
+
+<script>
+
+var timestamp=Number("1359365427506");
+
+
+alert(getTime(timestamp));
+
+
+function getTime(timestamp)
+{
+	timestamp=Number(timestamp);
+	var dDate=new Date(timestamp);
+	var h=dDate.getHours();
+	var m=dDate.getMinutes();
+	var s=dDate.getSeconds();
+	var sTime=h+":"+m+":"+s;
+	return sTime;
+}
+		
+</script>
+</head>
+<body>
+
+
+
+</body>
+</html>

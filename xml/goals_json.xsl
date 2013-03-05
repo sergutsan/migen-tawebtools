@@ -11,7 +11,7 @@
 		<xsl:if test="position() &gt; 1">,</xsl:if>
 		{
 			time:<xsl:value-of select="@time"/>,
-			userid:<xsl:value-of select="user/@id"/>,
+			userid:"<xsl:value-of select="user/@id"/>",
 			url:"<xsl:value-of select="object/properties/property/@value"/>",
 			message:"<xsl:value-of select="content/description/."/>",
 
