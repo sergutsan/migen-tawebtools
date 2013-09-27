@@ -1,26 +1,26 @@
 <moodle-resources-map>
-<context id="1" password="123">
+<context id="1" password="1">
   <title>Moodle Home Page</title>
   <tasks>
-    <task id="1"><title>Crosses and Lines</title></task>
-    <task id="9"><title>Pool</title></task>
-    <task id="14"><title>Train Track</title></task>
+    <task id="10"><title>Crosses and Lines</title></task>
+    <task id="12"><title>Pool</title></task>
+    <task id="15"><title>Train Track</title></task>
   </tasks>
 </context>
-<context id="2" password="123">
+<context id="2" password="2">
   <title>Moodle Test Course</title>
   <tasks>
-    <task id="1"><title>Crosses and Lines</title></task>
+    <task id="11"><title>Crosses and Lines</title></task>
     <task id="9"><title>Pool</title></task>
-    <task id="14"><title>Train Track</title></task>
+    <task id="7"><title>Train Track</title></task>
   </tasks>
 </context>
-<context id="3" password="123"> <!-- doesn't exist now --> 
+<context id="3" password="3"> <!-- doesn't exist now --> 
   <title>Mr. O'Brien's class in Hammersmith</title>
   <tasks>
-    <task id="1"><title>Crosses and Lines</title></task>
+    <task id="11"><title>Crosses and Lines</title></task>
     <task id="9"><title>Pool</title></task>
-    <task id="14"><title>Train Track</title></task>
+    <task id="7"><title>Train Track</title></task>
   </tasks>
 </context>
 </moodle-resources-map>

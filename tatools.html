@@ -18,10 +18,19 @@
 
 </head>
 <body>
+<table>
+<tr>
+<td width='50%'>
  <div id="radio">
 	<input type="radio" id="toolbar" name="radio" checked="checked" /><label for="toolbar">Tool Bar</label>
 	<input type="radio" id="eventlog" name="radio" /><label for="eventlog">Event Log</label>
 </div>
+</td>
+<td>
+	<img id='beacon' src='./images/green.gif'></img>
+</td>
+</tr>
+</table>
 <table class="eventlog">
 	<thead>
 	<tr>
@@ -42,30 +51,40 @@
 <table class="toolbar" cellpadding="5" cellspacing="10">
 	<thead>
 	<tr>
-		<th width="20%"><label class="ui-widget" for="starttime">Start Time</label></th>
-		<th width="20%"><label class="ui-widget" for="lastupdate">Last Update</label></th>
+		<th width="20%" colspan='2'><label class="ui-widget" for="starttime">Start Time</label></th>
+		<th width="20%" colspan='2'><label class="ui-widget" for="lastupdate">Last Update</label></th>
 		<th width="20%"><label class="ui-widget" for="currenttime">Current Time</label></th>
 		<th width="20%" colspan="3"><label class="ui-widget" for="selectedtime">Selected Time</label></th>
 		<th width="20%" colspan="3"><label class="ui-widget" for="time">Time Selector</label></th>
 	</tr>
 	</thead>
 	<tr>
-		<td id="starttime" class="messages"></td>
-		<td id="lastupdate" class="messages"></td>
+		<td id="starttime" class="messages" colspan='2'></td>
+		<td id="lastupdate" class="messages"  colspan='2'></td>
 		<td id="currenttime" class="messages"></td>
 		<td colspan="3" id="selectedtime" class="messages"></td>
 		<td colspan="3"><div id="time"></div></td>	
 	</tr>
 	<tr>
+		<td width='10%'>
+			<button id="poll" style="width:100%">Poll</button>
+		</td>
+		<td>
+			<select id='interval'>
+				<option value="2000">every 2 sec</option>
+				<option value="5000" selected>every 5 sec</option>
+				<option value="10000">every 10 sec</option>
+			</select> 
+		</td>
+		<td width='10%'>
+			<button id="refresh" style="width:100%">Refresh</button>
+		</td>
 		<td>
 			<div id="progressbar"></div>
 		</td>
 		<td>
 			<select id="task">
 			</select>
-		</td>
-		<td>
-		<button id="refresh" style="width:100%">Refresh</button>
 		</td>
 		<td align="center" width="8%">
 		<img width="36" height="38" src="./images/magnifier.png"/>
